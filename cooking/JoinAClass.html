@@ -1,0 +1,71 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Join a Class</title>
+   <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+</head>
+
+<body>
+
+<h1>Join a Class</h1>
+
+<p>Join one of our many classes catered to any experience level.</p>
+
+
+<form action="Thankyou.html" method="post">
+
+<fieldset>
+  <legend>Your Information</legend>
+  <ul>
+    <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+    <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li>
+    <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+    <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+    <li>Notes:<br>
+    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+  </ul>
+</fieldset>
+
+<h2>Select the following that apply:</h2>
+
+<fieldset>
+  <legend>Classes</legend>
+  <fieldset>
+    <legend>Experience<em>(Choose one)</em>:</legend>
+    <ul>
+      <li><label><input type="radio" name="crust" value="white"> Beginner</label></li>
+      <li><label><input type="radio" name="crust" value="multigrain"> Intermediate</label></li>
+      <li><label><input type="radio" name="crust" value="cheese crust"> Experienced</label></li>
+      <li><label><input type="radio" name="crust" value="gluten free"> Professional</label></li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+  <legend>Classes <em>(Choose as many as you want)</em></legend>
+    <ul>
+      <li><label><input type="checkbox" name="toppings[]" value="red sauce" checked> Breakfast Burrito</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="white sauce"> Cheesy Potato</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="mozzarella"> Three Ingredient Cookies</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="pepperoni"> Blueberry Muffins</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="mushrooms"> Roast Dinner for Four</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="peppers"> Air Fryer Waffles</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="anchovies"> Edible cookie Dough</label></li>
+    </ul>
+  </fieldset>
+
+
+
+</fieldset> <!-- closes 'Pizza Specs' fieldset -->
+
+<p><input type="submit" value="Join My Class!">
+<input type="reset"></p>
+
+</form>
+
+</body>
+</html>
